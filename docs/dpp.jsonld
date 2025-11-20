@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dpp": "https://logica-dpp.github.io/vocab/dpp#",
+
+    "@id": "@id",
+    "@type": "@type",
+
+    "identification": "dpp:identification",
+    "dimensions": "dpp:dimensions",
+    "production": "dpp:production",
+    "epcis": "dpp:epcisSection",
+    "maintenance": "dpp:maintenanceSection",
+    "sustainability": "dpp:sustainabilitySection",
+    "supplyChain": "dpp:supplyChainSection",
+    "documentation": "dpp:documentationSection",
+
+    "epc": "dpp:epc",
+    "gtin": "dpp:gtin",
+    "glnOwner": "dpp:glnOwner",
+
+    "containerType": "dpp:containerType",
+    "externalLengthM": "dpp:externalLengthM",
+    "externalWidthM": "dpp:externalWidthM",
+    "externalHeightM": "dpp:externalHeightM",
+    "internalVolumeM3": "dpp:internalVolumeM3",
+
+    "manufacturer": "dpp:manufacturer",
+    "productionDate": "dpp:productionDate",
+    "material": "dpp:material",
+
+    "name": "dpp:manufacturerName",
+    "street": "dpp:manufacturerStreet",
+    "city": "dpp:manufacturerCity",
+    "stateOrRegion": "dpp:manufacturerStateOrRegion",
+    "country": "dpp:manufacturerCountry",
+
+    "events": {
+      "@id": "dpp:events",
+      "@container": "@set"
+    },
+
+    "maintenanceRecords": {
+      "@id": "dpp:maintenanceRecords",
+      "@container": "@set"
+    },
+    "inspectionRecords": {
+      "@id": "dpp:inspectionRecords",
+      "@container": "@set"
+    },
+
+    "maintenanceDate": "dpp:maintenanceDate",
+    "maintenanceType": "dpp:maintenanceType",
+    "description": "dpp:maintenanceDescription",
+    "partsReplaced": "dpp:partsReplaced",
+
+    "inspectionDate": "dpp:inspectionDate",
+    "inspector": "dpp:inspector",
+    "outcome": "dpp:inspectionOutcome",
+    "certificateID": "dpp:certificateID",
+
+    "cumulativeEmissionsGCo2": "dpp:cumulativeEmissionsGCo2",
+
+    "trips": {
+      "@id": "dpp:trips",
+      "@container": "@set"
+    },
+    "startTime": "dpp:startTime",
+    "endTime": "dpp:endTime",
+    "distanceKm": "dpp:distanceKm",
+    "emissionsGCo2": "dpp:emissionsGCo2",
+
+    "recyclablePercentage": "dpp:recyclablePercentage",
+    "recyclingMethods": "dpp:recyclingMethods",
+    "reusePotential": "dpp:reusePotential",
+
+    "partners": {
+      "@id": "dpp:partners",
+      "@container": "@set"
+    },
+    "partnerGLN": "dpp:partnerGLN",
+    "role": "dpp:role",
+
+    "technicalManuals": {
+      "@id": "dpp:technicalManuals",
+      "@container": "@set"
+    },
+    "firmwareHistory": {
+      "@id": "dpp:firmwareHistory",
+      "@container": "@set"
+    },
+
+    "headline": "dpp:headline",
+    "url": "dpp:url",
+    "version": "dpp:version",
+    "updateDate": "dpp:updateDate",
+    "notes": "dpp:notes",
+
+    "dpp:temperature": "https://logica-dpp.github.io/vocab/dpp#temperature",
+    "dpp:humidity": "https://logica-dpp.github.io/vocab/dpp#humidity",
+    "dpp:pressure": "https://logica-dpp.github.io/vocab/dpp#pressure",
+    "dpp:speed": "https://logica-dpp.github.io/vocab/dpp#speed",
+    "dpp:eseal": "https://logica-dpp.github.io/vocab/dpp#esealPresence",
+    "dpp:eSeals": "https://logica-dpp.github.io/vocab/dpp#eSeals",
+    "dpp:doorStatus": "https://logica-dpp.github.io/vocab/dpp#doorStatus"
+  }
+}
